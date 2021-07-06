@@ -1,2 +1,2 @@
 # 01-Javascript
-That are my fist Java script works. 
+These are my fist Java script works. 
