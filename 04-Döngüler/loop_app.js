@@ -35,12 +35,16 @@ while(i<100){
 
 var k_username= "guest";
 var k_password= "12345";
+var loggedin = false;
 
+while (!loggedin ) {
 var username= prompt("enter username : ");
 var password= prompt("enter your password : ");
 
-if((k_username= username) && (k_password= password)){
-    console.log("you are in!")
+if((k_username == username) && (k_password == password)){
+    console.log("you are in!");
+    loggedin=true;
 }else {
-    console.log("your username or password wrong!")
+    console.log("your username or password is wrong!")
+}
 }
