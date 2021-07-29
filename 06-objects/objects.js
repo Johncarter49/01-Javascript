@@ -51,3 +51,7 @@ let cars = [
 ]
 
 console.log(cars[0].color);
+
+for(i=0; i<cars.length; i++){
+    console.log(cars[i]);
+}
